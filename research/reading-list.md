@@ -22,6 +22,10 @@ Read to answer a specific project question. After each source, write what the au
 | Lesson 05 | Cho et al. (2014). [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/) | Inspect the reset gate and the update gate. Check which term the paper multiplies by the update gate before copying a formula. |
 | Lesson 05 | Vaswani et al. (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Start with scaled dot-product attention and trace the query, key, and value shapes. |
 
+## Translation and accessibility
+
+The [translation reading guide](translation-reading-guide.md) links textbooks, Khmer parallel data, and worked examples for bilingual evaluation, anime subtitles, and Braille.
+
 ## Continual learning and evaluation
 
 | When | Source | What to look for |
