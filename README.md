@@ -2,6 +2,8 @@
 
 A study and research repository for building a Khmer NLP system from scratch. Start by learning how text becomes features, how a model predicts, and how to measure what it remembers after an update.
 
+**New to the project?** Follow [KhmerMind from 0 to 100](START_HERE.md). Start with [Lesson 00](lessons/00-first-khmer-question.md), then work through the exercises and record what you can reproduce.
+
 ## The project we are working toward
 
 An analyst asks «តើចំណូលសុទ្ធមានន័យដូចម្តេច?» (“What does net revenue mean?”). The system identifies the glossary entry and returns the company’s definition. New definitions arrive in releases. The research question is whether a small model can learn those definitions without losing the ability to answer earlier questions.
