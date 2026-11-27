@@ -1,0 +1,190 @@
+{"question_id": "gross_revenue_01", "fact_id": "gross_revenue", "split": "train", "paraphrase_group": "gross_revenue_01", "text": "ចំណូលសរុបមានន័យដូចម្តេច?"}
+{"question_id": "gross_revenue_02", "fact_id": "gross_revenue", "split": "train", "paraphrase_group": "gross_revenue_02", "text": "តើយើងគណនាចំណូលមុនការកាត់កងយ៉ាងដូចម្តេច?"}
+{"question_id": "gross_revenue_03", "fact_id": "gross_revenue", "split": "train", "paraphrase_group": "gross_revenue_03", "text": "សូមពន្យល់ពាក្យ gross revenue។"}
+{"question_id": "gross_revenue_04", "fact_id": "gross_revenue", "split": "validation", "paraphrase_group": "gross_revenue_04", "text": "បើមិនទាន់ដកប្រាក់បញ្ចុះតម្លៃ តួលេខលក់នេះហៅថាអ្វី?"}
+{"question_id": "gross_revenue_05", "fact_id": "gross_revenue", "split": "validation", "paraphrase_group": "gross_revenue_05", "text": "ក្នុងរបាយការណ៍លក់ ចំណូលសរុបរាប់អ្វីខ្លះ?"}
+{"question_id": "gross_revenue_06", "fact_id": "gross_revenue", "split": "test", "paraphrase_group": "gross_revenue_06", "text": "តើចំណូលសរុបកត់ត្រាមុនឬក្រោយការសងប្រាក់?"}
+{"question_id": "gross_revenue_07", "fact_id": "gross_revenue", "split": "test", "paraphrase_group": "gross_revenue_07", "text": "ចំណូលដែលមិនទាន់ដកការបង្វិលទំនិញ ហៅថាអ្វី?"}
+{"question_id": "net_revenue_01", "fact_id": "net_revenue", "split": "train", "paraphrase_group": "net_revenue_01", "text": "តើចំណូលសុទ្ធមានន័យដូចម្តេច?"}
+{"question_id": "net_revenue_02", "fact_id": "net_revenue", "split": "train", "paraphrase_group": "net_revenue_02", "text": "សូមបកស្រាយ net revenue។"}
+{"question_id": "net_revenue_03", "fact_id": "net_revenue", "split": "train", "paraphrase_group": "net_revenue_03", "text": "ចំណូលក្រោយដកប្រាក់បញ្ចុះតម្លៃ និងទំនិញបង្វិល គេហៅថាអ្វី?"}
+{"question_id": "net_revenue_04", "fact_id": "net_revenue", "split": "validation", "paraphrase_group": "net_revenue_04", "text": "តើត្រូវដកអ្វីខ្លះចេញពីចំណូលសរុបដើម្បីបានចំណូលសុទ្ធ?"}
+{"question_id": "net_revenue_05", "fact_id": "net_revenue", "split": "validation", "paraphrase_group": "net_revenue_05", "text": "តម្លៃលក់នៅសល់ក្រោយការកាត់កងហៅថាអ្វី?"}
+{"question_id": "net_revenue_06", "fact_id": "net_revenue", "split": "test", "paraphrase_group": "net_revenue_06", "text": "តើការសងប្រាក់កាត់បន្ថយចំណូលសុទ្ធដែរឬទេ?"}
+{"question_id": "net_revenue_07", "fact_id": "net_revenue", "split": "test", "paraphrase_group": "net_revenue_07", "text": "បន្ទាប់ពីដកការបញ្ចុះតម្លៃ និងការសងប្រាក់ តើគួររាយការណ៍ចំណូលប្រភេទណា?"}
+{"question_id": "average_order_value_01", "fact_id": "average_order_value", "split": "train", "paraphrase_group": "average_order_value_01", "text": "តើតម្លៃមធ្យមក្នុងមួយការបញ្ជាទិញគណនាដូចម្តេច?"}
+{"question_id": "average_order_value_02", "fact_id": "average_order_value", "split": "train", "paraphrase_group": "average_order_value_02", "text": "តើ AOV ជាអ្វី?"}
+{"question_id": "average_order_value_03", "fact_id": "average_order_value", "split": "train", "paraphrase_group": "average_order_value_03", "text": "ចំណូលសុទ្ធចែកនឹងចំនួនការបញ្ជាទិញបានសូចនាករអ្វី?"}
+{"question_id": "average_order_value_04", "fact_id": "average_order_value", "split": "validation", "paraphrase_group": "average_order_value_04", "text": "ជាមធ្យមអតិថិជនចំណាយប៉ុន្មានក្នុងមួយការបញ្ជាទិញ តើមើលសូចនាករណា?"}
+{"question_id": "average_order_value_05", "fact_id": "average_order_value", "split": "validation", "paraphrase_group": "average_order_value_05", "text": "តើភាគបែងរបស់តម្លៃមធ្យមក្នុងមួយការបញ្ជាទិញជាអ្វី?"}
+{"question_id": "average_order_value_06", "fact_id": "average_order_value", "split": "test", "paraphrase_group": "average_order_value_06", "text": "បើចង់វាស់ទឹកប្រាក់ជាមធ្យមរបស់ការបញ្ជាទិញមួយ តើត្រូវប្រើរូបមន្តអ្វី?"}
+{"question_id": "average_order_value_07", "fact_id": "average_order_value", "split": "test", "paraphrase_group": "average_order_value_07", "text": "តើ AOV រាប់ការបញ្ជាទិញដែលបានបញ្ចប់ឬការចូលមើលទំព័រ?"}
+{"question_id": "units_sold_01", "fact_id": "units_sold", "split": "train", "paraphrase_group": "units_sold_01", "text": "ចំនួនឯកតាលក់បានមានន័យដូចម្តេច?"}
+{"question_id": "units_sold_02", "fact_id": "units_sold", "split": "train", "paraphrase_group": "units_sold_02", "text": "តើយើងរាប់ចំនួនដុំទំនិញដែលបានលក់យ៉ាងដូចម្តេច?"}
+{"question_id": "units_sold_03", "fact_id": "units_sold", "split": "train", "paraphrase_group": "units_sold_03", "text": "តើ units sold វាស់អ្វី?"}
+{"question_id": "units_sold_04", "fact_id": "units_sold", "split": "validation", "paraphrase_group": "units_sold_04", "text": "បើការបញ្ជាទិញមួយមានទំនិញបីដុំ តើសូចនាករណារាប់ទាំងបី?"}
+{"question_id": "units_sold_05", "fact_id": "units_sold", "split": "validation", "paraphrase_group": "units_sold_05", "text": "តើចំនួនឯកតាលក់បានជាទឹកប្រាក់ឬជាបរិមាណ?"}
+{"question_id": "units_sold_06", "fact_id": "units_sold", "split": "test", "paraphrase_group": "units_sold_06", "text": "ចង់ដឹងថាលក់បានទំនិញសរុបប៉ុន្មានដុំ តើគួរមើលអ្វី?"}
+{"question_id": "units_sold_07", "fact_id": "units_sold", "split": "test", "paraphrase_group": "units_sold_07", "text": "តើឯកតាលក់បាន និងចំនួនការបញ្ជាទិញដូចគ្នាឬទេ?"}
+{"question_id": "repeat_customer_01", "fact_id": "repeat_customer", "split": "train", "paraphrase_group": "repeat_customer_01", "text": "តើអតិថិជនទិញម្តងទៀតជាអ្នកណា?"}
+{"question_id": "repeat_customer_02", "fact_id": "repeat_customer", "split": "train", "paraphrase_group": "repeat_customer_02", "text": "តើ repeat customer មានន័យដូចម្តេច?"}
+{"question_id": "repeat_customer_03", "fact_id": "repeat_customer", "split": "train", "paraphrase_group": "repeat_customer_03", "text": "អ្នកដែលបានបញ្ជាទិញសម្រេចពីរដងត្រូវចាត់ថ្នាក់ដូចម្តេច?"}
+{"question_id": "repeat_customer_04", "fact_id": "repeat_customer", "split": "validation", "paraphrase_group": "repeat_customer_04", "text": "តើត្រូវទិញប៉ុន្មានដងទើបត្រូវរាប់ជាអតិថិជនទិញម្តងទៀត?"}
+{"question_id": "repeat_customer_05", "fact_id": "repeat_customer", "split": "validation", "paraphrase_group": "repeat_customer_05", "text": "បើទិញបីដងក្នុងខែតែមួយ តើអតិថិជននេះស្ថិតក្នុងក្រុមណា?"}
+{"question_id": "repeat_customer_06", "fact_id": "repeat_customer", "split": "test", "paraphrase_group": "repeat_customer_06", "text": "អតិថិជនដែលបានទិញលើសពីមួយដងមានឈ្មោះក្រុមអ្វី?"}
+{"question_id": "repeat_customer_07", "fact_id": "repeat_customer", "split": "test", "paraphrase_group": "repeat_customer_07", "text": "តើអ្នកដែលបានបញ្ចប់ការទិញពីរលើកត្រូវហៅដូចម្តេច?"}
+{"question_id": "new_customer_01", "fact_id": "new_customer", "split": "train", "paraphrase_group": "new_customer_01", "text": "តើអតិថិជនថ្មីត្រូវកំណត់ដូចម្តេច?"}
+{"question_id": "new_customer_02", "fact_id": "new_customer", "split": "train", "paraphrase_group": "new_customer_02", "text": "តើ new customer មានន័យអ្វី?"}
+{"question_id": "new_customer_03", "fact_id": "new_customer", "split": "train", "paraphrase_group": "new_customer_03", "text": "អតិថិជនដែលទើបបញ្ចប់ការទិញដំបូងត្រូវចាត់ជាក្រុមអ្វី?"}
+{"question_id": "new_customer_04", "fact_id": "new_customer", "split": "validation", "paraphrase_group": "new_customer_04", "text": "មានគណនីចាស់ ប៉ុន្តែទើបទិញលើកទីមួយខែនេះ តើគាត់ជាអតិថិជនប្រភេទណា?"}
+{"question_id": "new_customer_05", "fact_id": "new_customer", "split": "validation", "paraphrase_group": "new_customer_05", "text": "តើរបាយការណ៍កំណត់អតិថិជនថ្មីតាមថ្ងៃបង្កើតគណនី ឬថ្ងៃទិញដំបូង?"}
+{"question_id": "new_customer_06", "fact_id": "new_customer", "split": "test", "paraphrase_group": "new_customer_06", "text": "តើអ្នកដែលទិញលើកដំបូងក្នុងខែនេះ ត្រូវរាប់ជាអ្វី?"}
+{"question_id": "new_customer_07", "fact_id": "new_customer", "split": "test", "paraphrase_group": "new_customer_07", "text": "តើការបញ្ជាទិញលើកទីមួយបញ្ជាក់ថាអ្នកទិញស្ថិតក្នុងក្រុមណា?"}
+{"question_id": "conversion_rate_01", "fact_id": "conversion_rate", "split": "train", "paraphrase_group": "conversion_rate_01", "text": "តើអត្រាបម្លែងគណនាដូចម្តេច?"}
+{"question_id": "conversion_rate_02", "fact_id": "conversion_rate", "split": "train", "paraphrase_group": "conversion_rate_02", "text": "តើ conversion rate វាស់អ្វី?"}
+{"question_id": "conversion_rate_03", "fact_id": "conversion_rate", "split": "train", "paraphrase_group": "conversion_rate_03", "text": "តើយកវគ្គចូលមើលដែលមានការទិញចែកនឹងវគ្គសរុប ដើម្បីបានអ្វី?"}
+{"question_id": "conversion_rate_04", "fact_id": "conversion_rate", "split": "validation", "paraphrase_group": "conversion_rate_04", "text": "តើអ្វីជាភាគបែងនៃអត្រាបម្លែង?"}
+{"question_id": "conversion_rate_05", "fact_id": "conversion_rate", "split": "validation", "paraphrase_group": "conversion_rate_05", "text": "តើសូចនាករណាបង្ហាញភាគរយនៃវគ្គចូលមើលដែលបានទិញ?"}
+{"question_id": "conversion_rate_06", "fact_id": "conversion_rate", "split": "test", "paraphrase_group": "conversion_rate_06", "text": "ចង់ដឹងថាក្នុងចំណោមការចូលមើលទាំងអស់ មានប៉ុន្មានភាគរយដែលទិញសម្រេច តើមើលអ្វី?"}
+{"question_id": "conversion_rate_07", "fact_id": "conversion_rate", "split": "test", "paraphrase_group": "conversion_rate_07", "text": "តើអត្រាបម្លែងប្រើចំនួនវគ្គសរុបឬទឹកប្រាក់សរុប?"}
+{"question_id": "discount_rate_01", "fact_id": "discount_rate", "split": "train", "paraphrase_group": "discount_rate_01", "text": "រូបមន្តអត្រាបញ្ចុះតម្លៃជាអ្វី?"}
+{"question_id": "discount_rate_02", "fact_id": "discount_rate", "split": "train", "paraphrase_group": "discount_rate_02", "text": "តើ discount rate មានន័យដូចម្តេច?"}
+{"question_id": "discount_rate_03", "fact_id": "discount_rate", "split": "train", "paraphrase_group": "discount_rate_03", "text": "យកប្រាក់បញ្ចុះតម្លៃចែកនឹងតម្លៃមុនបញ្ចុះ បានសូចនាករអ្វី?"}
+{"question_id": "discount_rate_04", "fact_id": "discount_rate", "split": "validation", "paraphrase_group": "discount_rate_04", "text": "តើតម្លៃមុនឬក្រោយបញ្ចុះត្រូវដាក់ក្នុងភាគបែងនៃអត្រាបញ្ចុះតម្លៃ?"}
+{"question_id": "discount_rate_05", "fact_id": "discount_rate", "split": "validation", "paraphrase_group": "discount_rate_05", "text": "ចង់ប្រៀបធៀបប្រាក់បញ្ចុះជាភាគរយនៃតម្លៃដើម តើប្រើអ្វី?"}
+{"question_id": "discount_rate_06", "fact_id": "discount_rate", "split": "test", "paraphrase_group": "discount_rate_06", "text": "តើប្រាក់ដែលបានបញ្ចុះស្មើប៉ុន្មានភាគរយនៃតម្លៃលក់មុនបញ្ចុះ?"}
+{"question_id": "discount_rate_07", "fact_id": "discount_rate", "split": "test", "paraphrase_group": "discount_rate_07", "text": "អត្រាបញ្ចុះតម្លៃបង្ហាញអ្វីក្នុងរបាយការណ៍ប្រូម៉ូសិន?"}
+{"question_id": "safety_stock_01", "fact_id": "safety_stock", "split": "train", "paraphrase_group": "safety_stock_01", "text": "តើស្តុកបម្រុងជាអ្វី?"}
+{"question_id": "safety_stock_02", "fact_id": "safety_stock", "split": "train", "paraphrase_group": "safety_stock_02", "text": "តើ safety stock មានតួនាទីអ្វី?"}
+{"question_id": "safety_stock_03", "fact_id": "safety_stock", "split": "train", "paraphrase_group": "safety_stock_03", "text": "ទំនិញបន្ថែមទុកសម្រាប់ការពារការខ្វះស្តុកហៅថាអ្វី?"}
+{"question_id": "safety_stock_04", "fact_id": "safety_stock", "split": "validation", "paraphrase_group": "safety_stock_04", "text": "បើការដឹកមកយឺត តើស្តុកប្រភេទណាអាចជួយបំពេញតម្រូវការ?"}
+{"question_id": "safety_stock_05", "fact_id": "safety_stock", "split": "validation", "paraphrase_group": "safety_stock_05", "text": "ហេតុអ្វីហាងត្រូវរក្សាស្តុកបម្រុង?"}
+{"question_id": "safety_stock_06", "fact_id": "safety_stock", "split": "test", "paraphrase_group": "safety_stock_06", "text": "តើយើងហៅបរិមាណទំនិញដែលទុកបន្ថែមសម្រាប់គ្រាមិនរំពឹងទុកថាអ្វី?"}
+{"question_id": "safety_stock_07", "fact_id": "safety_stock", "split": "test", "paraphrase_group": "safety_stock_07", "text": "តើស្តុកបម្រុងជួយកាត់បន្ថយបញ្ហាអ្វី?"}
+{"question_id": "reorder_point_01", "fact_id": "reorder_point", "split": "train", "paraphrase_group": "reorder_point_01", "text": "តើកម្រិតបញ្ជាទិញឡើងវិញគណនាដូចម្តេច?"}
+{"question_id": "reorder_point_02", "fact_id": "reorder_point", "split": "train", "paraphrase_group": "reorder_point_02", "text": "តើ reorder point ជាអ្វី?"}
+{"question_id": "reorder_point_03", "fact_id": "reorder_point", "split": "train", "paraphrase_group": "reorder_point_03", "text": "ពេលស្តុកធ្លាក់ដល់កម្រិតណា ទើបត្រូវបញ្ជាទិញបន្ថែម?"}
+{"question_id": "reorder_point_04", "fact_id": "reorder_point", "split": "validation", "paraphrase_group": "reorder_point_04", "text": "តើតម្រូវការក្នុងអំឡុងពេលរង់ចាំត្រូវបូកនឹងអ្វីដើម្បីកំណត់ពេលបញ្ជាទិញ?"}
+{"question_id": "reorder_point_05", "fact_id": "reorder_point", "split": "validation", "paraphrase_group": "reorder_point_05", "text": "តើកម្រិតបញ្ជាទិញឡើងវិញរួមបញ្ចូលស្តុកបម្រុងឬទេ?"}
+{"question_id": "reorder_point_06", "fact_id": "reorder_point", "split": "test", "paraphrase_group": "reorder_point_06", "text": "តើសូចនាករណាប្រាប់ថាដល់ពេលបញ្ជាទិញម្តងទៀត?"}
+{"question_id": "reorder_point_07", "fact_id": "reorder_point", "split": "test", "paraphrase_group": "reorder_point_07", "text": "ពេលចង់កំណត់ចំណុចស្តុកដែលត្រូវបញ្ជាទិញថ្មី តើប្រើរូបមន្តអ្វី?"}
+{"question_id": "lead_time_01", "fact_id": "lead_time", "split": "train", "paraphrase_group": "lead_time_01", "text": "តើរយៈពេលរង់ចាំទំនិញមានន័យអ្វី?"}
+{"question_id": "lead_time_02", "fact_id": "lead_time", "split": "train", "paraphrase_group": "lead_time_02", "text": "សូមពន្យល់ពាក្យ lead time។"}
+{"question_id": "lead_time_03", "fact_id": "lead_time", "split": "train", "paraphrase_group": "lead_time_03", "text": "តើចំនួនថ្ងៃពីការបញ្ជាទិញដល់ថ្ងៃទទួលហៅថាអ្វី?"}
+{"question_id": "lead_time_04", "fact_id": "lead_time", "split": "validation", "paraphrase_group": "lead_time_04", "text": "បើទំនិញមកដល់បីថ្ងៃក្រោយបញ្ជាទិញ តើបីថ្ងៃនេះតំណាងឱ្យអ្វី?"}
+{"question_id": "lead_time_05", "fact_id": "lead_time", "split": "validation", "paraphrase_group": "lead_time_05", "text": "តើរយៈពេលរង់ចាំចាប់គិតពីថ្ងៃណាដល់ថ្ងៃណា?"}
+{"question_id": "lead_time_06", "fact_id": "lead_time", "split": "test", "paraphrase_group": "lead_time_06", "text": "តើពេលវេលាដែលអ្នកផ្គត់ផ្គង់ចំណាយពីទទួលការបញ្ជាទិញដល់ទំនិញមកដល់ ហៅថាអ្វី?"}
+{"question_id": "lead_time_07", "fact_id": "lead_time", "split": "test", "paraphrase_group": "lead_time_07", "text": "ចង់ដឹងថាត្រូវចាំប៉ុន្មានថ្ងៃទើបទទួលទំនិញ តើមើលសូចនាករណា?"}
+{"question_id": "stockout_rate_01", "fact_id": "stockout_rate", "split": "train", "paraphrase_group": "stockout_rate_01", "text": "តើអត្រាខ្វះស្តុកគណនាដូចម្តេច?"}
+{"question_id": "stockout_rate_02", "fact_id": "stockout_rate", "split": "train", "paraphrase_group": "stockout_rate_02", "text": "តើ stockout rate វាស់អ្វី?"}
+{"question_id": "stockout_rate_03", "fact_id": "stockout_rate", "split": "train", "paraphrase_group": "stockout_rate_03", "text": "យកចំនួនថ្ងៃអស់ស្តុកចែកនឹងថ្ងៃតាមដានទាំងអស់ បានអ្វី?"}
+{"question_id": "stockout_rate_04", "fact_id": "stockout_rate", "split": "validation", "paraphrase_group": "stockout_rate_04", "text": "តើអ្វីជាភាគយកក្នុងរូបមន្តអត្រាខ្វះស្តុក?"}
+{"question_id": "stockout_rate_05", "fact_id": "stockout_rate", "split": "validation", "paraphrase_group": "stockout_rate_05", "text": "បើទំនិញអស់ស្តុកបីថ្ងៃក្នុងចំណោមសាមសិបថ្ងៃ តើសូចនាករណាពិពណ៌នាស្ថានភាពនេះ?"}
+{"question_id": "stockout_rate_06", "fact_id": "stockout_rate", "split": "test", "paraphrase_group": "stockout_rate_06", "text": "តើភាគរយថ្ងៃដែលទំនិញគ្មានស្តុកហៅថាអ្វី?"}
+{"question_id": "stockout_rate_07", "fact_id": "stockout_rate", "split": "test", "paraphrase_group": "stockout_rate_07", "text": "តើអត្រាខ្វះស្តុកត្រូវគិតជាចំនួនដុំ ឬជាភាគរយនៃថ្ងៃតាមដាន?"}
+{"question_id": "unknown_01", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_01", "text": "តើកាលវិភាគប្រជុំរបស់ក្រុមការងារនៅថ្ងៃណា?"}
+{"question_id": "unknown_02", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_02", "text": "តើប្រាក់ចំណេញសុទ្ធគិតពន្ធដូចម្តេច?"}
+{"question_id": "unknown_03", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_03", "text": "តើអត្រាបោះបង់សេវាកម្មគណនាដូចម្តេច?"}
+{"question_id": "unknown_04", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_04", "text": "តើផ្លូវទៅឃ្លាំងនៅឯណា?"}
+{"question_id": "unknown_05", "fact_id": null, "split": "test", "paraphrase_group": "unknown_05", "text": "តើក្រុមហ៊ុនទិញទូរស័ព្ទនៅហាងណា?"}
+{"question_id": "unknown_06", "fact_id": null, "split": "test", "paraphrase_group": "unknown_06", "text": "រូបមន្តអត្រាបង្វិលទំនិញតាមទម្ងន់ជាគីឡូក្រាមជាអ្វី?"}
+{"question_id": "unknown_07", "fact_id": null, "split": "test", "paraphrase_group": "unknown_07", "text": "តើរយៈពេលធានាទំនិញមានប៉ុន្មានខែ?"}
+{"question_id": "unknown_08", "fact_id": null, "split": "test", "paraphrase_group": "unknown_08", "text": "តើស្តុកបានរាប់ចុងក្រោយនៅថ្ងៃណា?"}
+{"question_id": "completed_orders_01", "fact_id": "completed_orders", "split": "train", "paraphrase_group": "completed_orders_01", "text": "តើចំនួនការបញ្ជាទិញដែលបានបញ្ចប់មានន័យដូចម្តេច?"}
+{"question_id": "completed_orders_02", "fact_id": "completed_orders", "split": "train", "paraphrase_group": "completed_orders_02", "text": "តើ completed orders រាប់អ្វី?"}
+{"question_id": "completed_orders_03", "fact_id": "completed_orders", "split": "train", "paraphrase_group": "completed_orders_03", "text": "តើគេរាប់លេខបញ្ជាទិញសម្រេចមួយដងឬរាប់តាមមុខទំនិញ?"}
+{"question_id": "completed_orders_04", "fact_id": "completed_orders", "split": "validation", "paraphrase_group": "completed_orders_04", "text": "តើការបញ្ជាទិញលុបចោលចូលក្នុងចំនួនការបញ្ជាទិញសម្រេចឬទេ?"}
+{"question_id": "completed_orders_05", "fact_id": "completed_orders", "split": "test", "paraphrase_group": "completed_orders_05", "text": "ចង់ដឹងថាមានប៉ុន្មានប្រតិបត្តិការលក់ដែលសម្រេច តើគួរមើលចំនួនអ្វី?"}
+{"question_id": "cost_of_goods_sold_01", "fact_id": "cost_of_goods_sold", "split": "train", "paraphrase_group": "cost_of_goods_sold_01", "text": "តើថ្លៃដើមទំនិញលក់ជាអ្វី?"}
+{"question_id": "cost_of_goods_sold_02", "fact_id": "cost_of_goods_sold", "split": "train", "paraphrase_group": "cost_of_goods_sold_02", "text": "តើ COGS មានន័យដូចម្តេច?"}
+{"question_id": "cost_of_goods_sold_03", "fact_id": "cost_of_goods_sold", "split": "train", "paraphrase_group": "cost_of_goods_sold_03", "text": "ចំណាយផ្ទាល់លើទំនិញដែលលក់ចេញហៅថាអ្វី?"}
+{"question_id": "cost_of_goods_sold_04", "fact_id": "cost_of_goods_sold", "split": "validation", "paraphrase_group": "cost_of_goods_sold_04", "text": "តើថ្លៃរដ្ឋបាលត្រូវរាប់ក្នុងថ្លៃដើមទំនិញលក់ឬទេ?"}
+{"question_id": "cost_of_goods_sold_05", "fact_id": "cost_of_goods_sold", "split": "test", "paraphrase_group": "cost_of_goods_sold_05", "text": "តើសូចនាករណាបង្ហាញថាទំនិញដែលបានលក់មានថ្លៃដើមសរុបប៉ុន្មាន?"}
+{"question_id": "gross_profit_01", "fact_id": "gross_profit", "split": "train", "paraphrase_group": "gross_profit_01", "text": "តើប្រាក់ចំណេញដុលគណនាយ៉ាងដូចម្តេច?"}
+{"question_id": "gross_profit_02", "fact_id": "gross_profit", "split": "train", "paraphrase_group": "gross_profit_02", "text": "សូមពន្យល់ gross profit។"}
+{"question_id": "gross_profit_03", "fact_id": "gross_profit", "split": "train", "paraphrase_group": "gross_profit_03", "text": "ចំណូលសុទ្ធដកថ្លៃដើមទំនិញលក់ស្មើនឹងអ្វី?"}
+{"question_id": "gross_profit_04", "fact_id": "gross_profit", "split": "validation", "paraphrase_group": "gross_profit_04", "text": "តើប្រាក់ចំណេញដុលបង្ហាញជាទឹកប្រាក់ឬជាភាគរយ?"}
+{"question_id": "gross_profit_05", "fact_id": "gross_profit", "split": "test", "paraphrase_group": "gross_profit_05", "text": "តើទឹកប្រាក់ដែលនៅសល់ពីការលក់ក្រោយគិតថ្លៃដើមហៅថាអ្វី?"}
+{"question_id": "gross_margin_01", "fact_id": "gross_margin", "split": "train", "paraphrase_group": "gross_margin_01", "text": "តើរូបមន្តអត្រាចំណេញដុលជាអ្វី?"}
+{"question_id": "gross_margin_02", "fact_id": "gross_margin", "split": "train", "paraphrase_group": "gross_margin_02", "text": "តើ gross margin វាស់អ្វី?"}
+{"question_id": "gross_margin_03", "fact_id": "gross_margin", "split": "train", "paraphrase_group": "gross_margin_03", "text": "យកប្រាក់ចំណេញដុលចែកនឹងចំណូលសុទ្ធដើម្បីបានភាគរយអ្វី?"}
+{"question_id": "gross_margin_04", "fact_id": "gross_margin", "split": "validation", "paraphrase_group": "gross_margin_04", "text": "តើអត្រាចំណេញដុលមានតម្លៃប៉ុន្មានបើភាគបែងស្មើសូន្យ?"}
+{"question_id": "gross_margin_05", "fact_id": "gross_margin", "split": "test", "paraphrase_group": "gross_margin_05", "text": "តើភាគរយនៃចំណូលដែលសល់ក្រោយថ្លៃដើមទំនិញហៅថាអ្វី?"}
+{"question_id": "average_selling_price_01", "fact_id": "average_selling_price", "split": "train", "paraphrase_group": "average_selling_price_01", "text": "តើតម្លៃលក់មធ្យមក្នុងមួយឯកតាគណនាដូចម្តេច?"}
+{"question_id": "average_selling_price_02", "fact_id": "average_selling_price", "split": "train", "paraphrase_group": "average_selling_price_02", "text": "តើ ASP សម្គាល់សូចនាករអ្វី?"}
+{"question_id": "average_selling_price_03", "fact_id": "average_selling_price", "split": "train", "paraphrase_group": "average_selling_price_03", "text": "យកចំណូលសុទ្ធចែកនឹងបរិមាណដុំដែលលក់បានស្មើនឹងអ្វី?"}
+{"question_id": "average_selling_price_04", "fact_id": "average_selling_price", "split": "validation", "paraphrase_group": "average_selling_price_04", "text": "តើភាគបែងនៃតម្លៃលក់មធ្យមជាចំនួនដុំ ឬចំនួនអតិថិជន?"}
+{"question_id": "average_selling_price_05", "fact_id": "average_selling_price", "split": "test", "paraphrase_group": "average_selling_price_05", "text": "បើចង់ដឹងតម្លៃជាមធ្យមរបស់ទំនិញមួយដុំដែលលក់ចេញ តើមើលរង្វាស់អ្វី?"}
+{"question_id": "sales_growth_rate_01", "fact_id": "sales_growth_rate", "split": "train", "paraphrase_group": "sales_growth_rate_01", "text": "តើអត្រាកំណើនការលក់មានរូបមន្តអ្វី?"}
+{"question_id": "sales_growth_rate_02", "fact_id": "sales_growth_rate", "split": "train", "paraphrase_group": "sales_growth_rate_02", "text": "តើ sales growth rate មានន័យដូចម្តេច?"}
+{"question_id": "sales_growth_rate_03", "fact_id": "sales_growth_rate", "split": "train", "paraphrase_group": "sales_growth_rate_03", "text": "ចង់វាស់ភាគរយដែលចំណូលខែនេះប្រែប្រួលធៀបនឹងខែមុន តើប្រើអ្វី?"}
+{"question_id": "sales_growth_rate_04", "fact_id": "sales_growth_rate", "split": "validation", "paraphrase_group": "sales_growth_rate_04", "text": "ក្នុងរូបមន្តអត្រាកំណើនការលក់ តើត្រូវចែកនឹងចំណូលរបស់គ្រាណា?"}
+{"question_id": "sales_growth_rate_05", "fact_id": "sales_growth_rate", "split": "test", "paraphrase_group": "sales_growth_rate_05", "text": "តើសូចនាករណាប្រៀបធៀបការកើនឬថយនៃការលក់រវាងរយៈពេលពីរ?"}
+{"question_id": "active_customers_01", "fact_id": "active_customers", "split": "train", "paraphrase_group": "active_customers_01", "text": "តើអតិថិជនសកម្មត្រូវរាប់ដូចម្តេច?"}
+{"question_id": "active_customers_02", "fact_id": "active_customers", "split": "train", "paraphrase_group": "active_customers_02", "text": "តើ active customers មានន័យអ្វី?"}
+{"question_id": "active_customers_03", "fact_id": "active_customers", "split": "train", "paraphrase_group": "active_customers_03", "text": "អ្នកធ្លាប់ទិញយ៉ាងតិចម្តងក្នុងខែនេះស្ថិតក្នុងក្រុមណា?"}
+{"question_id": "active_customers_04", "fact_id": "active_customers", "split": "validation", "paraphrase_group": "active_customers_04", "text": "បើអ្នកទិញដដែលទិញបីដង តើសូចនាករអតិថិជនសកម្មរាប់គាត់ប៉ុន្មានដង?"}
+{"question_id": "active_customers_05", "fact_id": "active_customers", "split": "test", "paraphrase_group": "active_customers_05", "text": "តើរង្វាស់ណារាប់អ្នកទិញខុសគ្នាដែលមានប្រតិបត្តិការក្នុងគ្រាមួយ?"}
+{"question_id": "repeat_purchase_rate_01", "fact_id": "repeat_purchase_rate", "split": "train", "paraphrase_group": "repeat_purchase_rate_01", "text": "តើអត្រាអតិថិជនទិញម្តងទៀតគណនាយ៉ាងដូចម្តេច?"}
+{"question_id": "repeat_purchase_rate_02", "fact_id": "repeat_purchase_rate", "split": "train", "paraphrase_group": "repeat_purchase_rate_02", "text": "តើ repeat purchase rate ជាអ្វី?"}
+{"question_id": "repeat_purchase_rate_03", "fact_id": "repeat_purchase_rate", "split": "train", "paraphrase_group": "repeat_purchase_rate_03", "text": "ភាគរយអ្នកទិញលើសពីមួយដងក្នុងចំណោមអ្នកទិញសកម្មហៅថាអ្វី?"}
+{"question_id": "repeat_purchase_rate_04", "fact_id": "repeat_purchase_rate", "split": "validation", "paraphrase_group": "repeat_purchase_rate_04", "text": "តើភាគបែងនៃអត្រាទិញម្តងទៀតជាអតិថិជនសកម្មឬជាការបញ្ជាទិញ?"}
+{"question_id": "repeat_purchase_rate_05", "fact_id": "repeat_purchase_rate", "split": "test", "paraphrase_group": "repeat_purchase_rate_05", "text": "តើគេប្រើរូបមន្តអ្វីដើម្បីរកភាគរយអ្នកដែលត្រឡប់មកទិញក្នុងខែដដែល?"}
+{"question_id": "customer_acquisition_cost_01", "fact_id": "customer_acquisition_cost", "split": "train", "paraphrase_group": "customer_acquisition_cost_01", "text": "តើថ្លៃទទួលបានអតិថិជនថ្មីម្នាក់គណនាដូចម្តេច?"}
+{"question_id": "customer_acquisition_cost_02", "fact_id": "customer_acquisition_cost", "split": "train", "paraphrase_group": "customer_acquisition_cost_02", "text": "តើ CAC មានន័យអ្វីក្នុងរបាយការណ៍ទីផ្សារ?"}
+{"question_id": "customer_acquisition_cost_03", "fact_id": "customer_acquisition_cost", "split": "train", "paraphrase_group": "customer_acquisition_cost_03", "text": "ចំណាយទាក់ទាញចែកនឹងចំនួនអ្នកទិញថ្មីបានសូចនាករអ្វី?"}
+{"question_id": "customer_acquisition_cost_04", "fact_id": "customer_acquisition_cost", "split": "validation", "paraphrase_group": "customer_acquisition_cost_04", "text": "តើត្រូវប្រើចំណាយប្រភេទណាក្នុងរូបមន្ត CAC?"}
+{"question_id": "customer_acquisition_cost_05", "fact_id": "customer_acquisition_cost", "split": "test", "paraphrase_group": "customer_acquisition_cost_05", "text": "ចង់ដឹងថាមធ្យមចំណាយប៉ុន្មានដើម្បីបានអ្នកទិញថ្មីម្នាក់ តើគួរមើលអ្វី?"}
+{"question_id": "campaign_redemption_rate_01", "fact_id": "campaign_redemption_rate", "split": "train", "paraphrase_group": "campaign_redemption_rate_01", "text": "តើអត្រាប្រើប័ណ្ណប្រូម៉ូសិនគណនាដូចម្តេច?"}
+{"question_id": "campaign_redemption_rate_02", "fact_id": "campaign_redemption_rate", "split": "train", "paraphrase_group": "campaign_redemption_rate_02", "text": "តើ coupon redemption rate វាស់អ្វី?"}
+{"question_id": "campaign_redemption_rate_03", "fact_id": "campaign_redemption_rate", "split": "train", "paraphrase_group": "campaign_redemption_rate_03", "text": "យកប័ណ្ណដែលបានប្រើចែកនឹងប័ណ្ណដែលបានចែកបានភាគរយអ្វី?"}
+{"question_id": "campaign_redemption_rate_04", "fact_id": "campaign_redemption_rate", "split": "validation", "paraphrase_group": "campaign_redemption_rate_04", "text": "តើភាគបែងរបស់អត្រាប្រើប័ណ្ណរាប់ប័ណ្ណដែលមិនទាន់ប្រើដែរឬទេ?"}
+{"question_id": "campaign_redemption_rate_05", "fact_id": "campaign_redemption_rate", "split": "test", "paraphrase_group": "campaign_redemption_rate_05", "text": "តើសូចនាករណាវាស់ថាប័ណ្ណបញ្ចុះតម្លៃដែលចែកទៅមានប៉ុន្មានភាគរយត្រូវបានប្រើ?"}
+{"question_id": "return_order_rate_01", "fact_id": "return_order_rate", "split": "train", "paraphrase_group": "return_order_rate_01", "text": "តើអត្រាការបញ្ជាទិញដែលមានទំនិញបង្វិលរកដូចម្តេច?"}
+{"question_id": "return_order_rate_02", "fact_id": "return_order_rate", "split": "train", "paraphrase_group": "return_order_rate_02", "text": "តើ returned order rate រាប់អ្វី?"}
+{"question_id": "return_order_rate_03", "fact_id": "return_order_rate", "split": "train", "paraphrase_group": "return_order_rate_03", "text": "ការបញ្ជាទិញដែលមានទំនិញបង្វិលចែកនឹងការបញ្ជាទិញសម្រេចបានរង្វាស់អ្វី?"}
+{"question_id": "return_order_rate_04", "fact_id": "return_order_rate", "split": "validation", "paraphrase_group": "return_order_rate_04", "text": "បើមានការបង្វិលពីរដុំពីការបញ្ជាទិញតែមួយ តើភាគយករាប់ប៉ុន្មាន?"}
+{"question_id": "return_order_rate_05", "fact_id": "return_order_rate", "split": "test", "paraphrase_group": "return_order_rate_05", "text": "តើវាស់ភាគរយប្រតិបត្តិការដែលអតិថិជនប្រគល់ទំនិញមកវិញដោយរូបមន្តអ្វី?"}
+{"question_id": "customer_retention_rate_01", "fact_id": "customer_retention_rate", "split": "train", "paraphrase_group": "customer_retention_rate_01", "text": "តើអត្រារក្សាអតិថិជនគណនាដូចម្តេច?"}
+{"question_id": "customer_retention_rate_02", "fact_id": "customer_retention_rate", "split": "train", "paraphrase_group": "customer_retention_rate_02", "text": "តើ customer retention rate មានន័យអ្វី?"}
+{"question_id": "customer_retention_rate_03", "fact_id": "customer_retention_rate", "split": "train", "paraphrase_group": "customer_retention_rate_03", "text": "ភាគរយអ្នកទិញចាស់ដែលនៅទិញក្នុងគ្រាថ្មីហៅថាអ្វី?"}
+{"question_id": "customer_retention_rate_04", "fact_id": "customer_retention_rate", "split": "validation", "paraphrase_group": "customer_retention_rate_04", "text": "តើអ្នកទិញថ្មីត្រូវរាប់ក្នុងភាគយកនៃអត្រារក្សាអតិថិជនឬទេ?"}
+{"question_id": "customer_retention_rate_05", "fact_id": "customer_retention_rate", "split": "test", "paraphrase_group": "customer_retention_rate_05", "text": "តើរង្វាស់ណាបង្ហាញថាអ្នកទិញសកម្មពីខែមុននៅបន្តទិញក្នុងខែនេះ?"}
+{"question_id": "on_hand_stock_01", "fact_id": "on_hand_stock", "split": "train", "paraphrase_group": "on_hand_stock_01", "text": "តើស្តុកក្នុងដៃជាអ្វី?"}
+{"question_id": "on_hand_stock_02", "fact_id": "on_hand_stock", "split": "train", "paraphrase_group": "on_hand_stock_02", "text": "តើ on-hand stock មានន័យដូចម្តេច?"}
+{"question_id": "on_hand_stock_03", "fact_id": "on_hand_stock", "split": "train", "paraphrase_group": "on_hand_stock_03", "text": "តើចំនួនដុំដែលមានជាក់ស្តែងក្នុងឃ្លាំងហៅថាអ្វី?"}
+{"question_id": "on_hand_stock_04", "fact_id": "on_hand_stock", "split": "validation", "paraphrase_group": "on_hand_stock_04", "text": "តើស្តុកក្នុងដៃរាប់ទំនិញកំពុងដឹកមកដែរឬទេ?"}
+{"question_id": "on_hand_stock_05", "fact_id": "on_hand_stock", "split": "test", "paraphrase_group": "on_hand_stock_05", "text": "តើរង្វាស់ណាប្រាប់ចំនួនទំនិញដែលមាននៅទីតាំងស្តុកឥឡូវនេះ?"}
+{"question_id": "available_stock_01", "fact_id": "available_stock", "split": "train", "paraphrase_group": "available_stock_01", "text": "តើស្តុកដែលអាចលក់បានគណនាដូចម្តេច?"}
+{"question_id": "available_stock_02", "fact_id": "available_stock", "split": "train", "paraphrase_group": "available_stock_02", "text": "តើ available stock ជាអ្វី?"}
+{"question_id": "available_stock_03", "fact_id": "available_stock", "split": "train", "paraphrase_group": "available_stock_03", "text": "ស្តុកក្រោយដកទំនិញកក់ និងទំនិញខូចហៅថាអ្វី?"}
+{"question_id": "available_stock_04", "fact_id": "available_stock", "split": "validation", "paraphrase_group": "available_stock_04", "text": "តើទំនិញដែលបានកក់ត្រូវដកពីស្តុកប្រភេទណា?"}
+{"question_id": "available_stock_05", "fact_id": "available_stock", "split": "test", "paraphrase_group": "available_stock_05", "text": "ចង់ដឹងថាឃ្លាំងនៅសល់ប៉ុន្មានដុំសម្រាប់លក់ថ្មី តើមើលរង្វាស់អ្វី?"}
+{"question_id": "inventory_turnover_01", "fact_id": "inventory_turnover", "split": "train", "paraphrase_group": "inventory_turnover_01", "text": "តើចំនួនជុំបង្វិលស្តុកគណនាយ៉ាងដូចម្តេច?"}
+{"question_id": "inventory_turnover_02", "fact_id": "inventory_turnover", "split": "train", "paraphrase_group": "inventory_turnover_02", "text": "តើ inventory turnover វាស់អ្វី?"}
+{"question_id": "inventory_turnover_03", "fact_id": "inventory_turnover", "split": "train", "paraphrase_group": "inventory_turnover_03", "text": "យកថ្លៃដើមទំនិញលក់ចែកនឹងតម្លៃស្តុកមធ្យមបានអ្វី?"}
+{"question_id": "inventory_turnover_04", "fact_id": "inventory_turnover", "split": "validation", "paraphrase_group": "inventory_turnover_04", "text": "តើភាគបែងនៃចំនួនជុំបង្វិលស្តុកជាតម្លៃស្តុកមធ្យមឬចំណូល?"}
+{"question_id": "inventory_turnover_05", "fact_id": "inventory_turnover", "split": "test", "paraphrase_group": "inventory_turnover_05", "text": "តើសូចនាករណាប្រាប់ថាស្តុកមានការបង្វិលប៉ុន្មានជុំក្នុងគ្រារាយការណ៍?"}
+{"question_id": "days_of_inventory_01", "fact_id": "days_of_inventory", "split": "train", "paraphrase_group": "days_of_inventory_01", "text": "តើចំនួនថ្ងៃស្តុកគ្រប់គ្រាន់រកដូចម្តេច?"}
+{"question_id": "days_of_inventory_02", "fact_id": "days_of_inventory", "split": "train", "paraphrase_group": "days_of_inventory_02", "text": "តើ forecast days of supply មានន័យអ្វី?"}
+{"question_id": "days_of_inventory_03", "fact_id": "days_of_inventory", "split": "train", "paraphrase_group": "days_of_inventory_03", "text": "យកស្តុកដែលលក់បានចែកនឹងតម្រូវការរំពឹងទុកប្រចាំថ្ងៃបានអ្វី?"}
+{"question_id": "days_of_inventory_04", "fact_id": "days_of_inventory", "split": "validation", "paraphrase_group": "days_of_inventory_04", "text": "តើរង្វាស់ថ្ងៃស្តុកគ្រប់គ្រាន់ប្រើតម្រូវការព្យាករណ៍ឬទឹកប្រាក់លក់?"}
+{"question_id": "days_of_inventory_05", "fact_id": "days_of_inventory", "split": "test", "paraphrase_group": "days_of_inventory_05", "text": "តើគណនាដូចម្តេចថាទំនិញនៅសល់គ្រប់សម្រាប់លក់ប៉ុន្មានថ្ងៃ?"}
+{"question_id": "fill_rate_01", "fact_id": "fill_rate", "split": "train", "paraphrase_group": "fill_rate_01", "text": "តើអត្រាបំពេញតម្រូវការទំនិញគណនាដូចម្តេច?"}
+{"question_id": "fill_rate_02", "fact_id": "fill_rate", "split": "train", "paraphrase_group": "fill_rate_02", "text": "តើ unit fill rate វាស់អ្វី?"}
+{"question_id": "fill_rate_03", "fact_id": "fill_rate", "split": "train", "paraphrase_group": "fill_rate_03", "text": "ចំនួនដុំដែលផ្ញើជុំដំបូងចែកនឹងចំនួនដុំដែលអតិថិជនស្នើសុំបានអ្វី?"}
+{"question_id": "fill_rate_04", "fact_id": "fill_rate", "split": "validation", "paraphrase_group": "fill_rate_04", "text": "តើភាគយកនៃអត្រាបំពេញទំនិញរាប់ឯកតាពីការផ្ញើបន្ថែមឬទេ?"}
+{"question_id": "fill_rate_05", "fact_id": "fill_rate", "split": "test", "paraphrase_group": "fill_rate_05", "text": "តើភាគរយដែលហាងផ្គត់ផ្គង់បានភ្លាមធៀបនឹងបរិមាណបញ្ជាទិញហៅថាអ្វី?"}
+{"question_id": "on_time_delivery_rate_01", "fact_id": "on_time_delivery_rate", "split": "train", "paraphrase_group": "on_time_delivery_rate_01", "text": "តើអត្រាដឹកទាន់ពេលគណនាយ៉ាងដូចម្តេច?"}
+{"question_id": "on_time_delivery_rate_02", "fact_id": "on_time_delivery_rate", "split": "train", "paraphrase_group": "on_time_delivery_rate_02", "text": "តើ on-time delivery rate មានន័យអ្វី?"}
+{"question_id": "on_time_delivery_rate_03", "fact_id": "on_time_delivery_rate", "split": "train", "paraphrase_group": "on_time_delivery_rate_03", "text": "ភាគរយដឹកជញ្ជូនដែលមកដល់ត្រឹមកាលបរិច្ឆេទសន្យាហៅថាអ្វី?"}
+{"question_id": "on_time_delivery_rate_04", "fact_id": "on_time_delivery_rate", "split": "validation", "paraphrase_group": "on_time_delivery_rate_04", "text": "តើការមកដល់មុនថ្ងៃសន្យាត្រូវរាប់ថាទាន់ពេលដែរឬទេ?"}
+{"question_id": "on_time_delivery_rate_05", "fact_id": "on_time_delivery_rate", "split": "test", "paraphrase_group": "on_time_delivery_rate_05", "text": "តើសូចនាករណាប្រាប់ថាការដឹកដែលបានបញ្ចប់ភាគច្រើនមកដល់មុនថ្ងៃកំណត់ឬអត់?"}
+{"question_id": "unknown_09", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_09", "text": "តើស្តុករបស់ក្រុមហ៊ុនខាតបង់ដោយសារទឹកជំនន់ប៉ុន្មាន?"}
+{"question_id": "unknown_10", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_10", "text": "តើគណនាថ្លៃអគ្គិសនីប្រចាំខែយ៉ាងដូចម្តេច?"}
+{"question_id": "unknown_11", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_11", "text": "តើតួលេខចំណូលសុទ្ធជាក់ស្តែងខែមុនប៉ុន្មាន?"}
+{"question_id": "unknown_12", "fact_id": null, "split": "validation", "paraphrase_group": "unknown_12", "text": "តើពេលណាអាចស្នើសុំវិស្សមកាលបាន?"}
+{"question_id": "unknown_13", "fact_id": null, "split": "test", "paraphrase_group": "unknown_13", "text": "តើភាគរយអតិថិជនពីគេហទំព័រថ្មីមានប៉ុន្មាន?"}
+{"question_id": "unknown_14", "fact_id": null, "split": "test", "paraphrase_group": "unknown_14", "text": "តើស្តុកក្នុងឃ្លាំងទីពីរមានប៉ុន្មានដុំថ្ងៃនេះ?"}
+{"question_id": "unknown_15", "fact_id": null, "split": "test", "paraphrase_group": "unknown_15", "text": "តើត្រូវប្តូរពាក្យសម្ងាត់គណនីយ៉ាងដូចម្តេច?"}
+{"question_id": "unknown_16", "fact_id": null, "split": "test", "paraphrase_group": "unknown_16", "text": "តើប្រើរូបមន្តអ្វីដើម្បីប៉ាន់ប្រមាណពន្ធលើប្រាក់ខែ?"}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KhmerMind · Glossary</title>
+<style>
+:root { color-scheme: light; --ink:#102b28; --muted:#49605b; --accent:#174f44; --line:#cddcd5; --paper:#fff; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#f2f6f2; font:16px/1.6 system-ui, "Khmer OS", "Noto Sans Khmer", sans-serif; }
+main { max-width:950px; margin:auto; padding:56px 24px; }
+h1 { margin:0; font-size:clamp(34px,6vw,59px); line-height:1.1; letter-spacing:-.055em; }
+h2 { font-size:19px; margin:0 0 14px; }
+header p { max-width:630px; margin:12px 0 28px; color:var(--muted); }
+.layout { display:grid; grid-template-columns:1.1fr 1fr; gap:18px; }
+.panel { padding:24px; border:1px solid var(--line); border-radius:18px; background:var(--paper); }
+label { display:block; font-weight:650; margin:0 0 5px; }
+select, textarea, button { font:inherit; }
+select, textarea { width:100%; border:1px solid #94aba3; border-radius:9px; color:var(--ink); background:#fbfdfb; padding:8px 11px; }
+textarea { resize:vertical; min-height:108px; margin-bottom:12px; }
+#release { margin-bottom:14px; }
+button { border:1px solid var(--line); color:var(--accent); background:#eef7ef; border-radius:9px; padding:8px 12px; cursor:pointer; }
+button[type="submit"] { background:var(--accent); color:#fff; border-color:transparent; font-weight:650; width:100%; }
+button:disabled { opacity:.62; cursor:wait; }
+:focus-visible { outline:3px solid #c17a29; outline-offset:3px; }
+.samples { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
+.answer { min-height:92px; font-size:19px; line-height:1.7; margin:0; overflow-wrap:anywhere; }
+.status { font-size:14px; font-weight:700; color:var(--accent); margin:16px 0 8px; }
+dl { display:grid; grid-template-columns:1fr 1fr; gap:12px; border-top:1px solid var(--line); padding-top:15px; margin:16px 0 0; }
+dt { color:var(--muted); font-size:13px; }
+dd { margin:0; overflow-wrap:anywhere; }
+[hidden] { display:none !important; }
+@media (max-width:700px) { main { padding:30px 14px; } .layout { grid-template-columns:1fr; } .panel { padding:18px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>KhmerMind</h1>
+    <p>Ask about a business metric in Khmer. Change the glossary release to see which definitions were available at the time.</p>
+  </header>
+  <div class="layout">
+    <section class="panel">
+      <form id="query-form">
+        <label for="release">Glossary release</label>
+        <select id="release" required></select>
+        <label for="question">Question in Khmer</label>
+        <textarea id="question" required maxlength="500" lang="km" placeholder="តើចំណូលសុទ្ធមានន័យដូចម្តេច?"></textarea>
+        <button id="submit" type="submit" disabled>Search glossary</button>
+      </form>
+      <div class="samples" aria-label="Example questions">
+        <button type="button" lang="km" data-question="តើចំណូលសុទ្ធមានន័យដូចម្តេច?">ចំណូលសុទ្ធ</button>
+        <button type="button" lang="km" data-question="តើស្តុកបម្រុងជាអ្វី?">ស្តុកបម្រុង</button>
+        <button type="button" lang="km" data-question="តើថ្ងៃនេះសីតុណ្ហភាពប៉ុន្មាន?">សីតុណ្ហភាព</button>
+      </div>
+    </section>
+    <section class="panel" aria-live="polite" aria-labelledby="result-heading">
+      <h2 id="result-heading">Glossary result</h2>
+      <p id="status" class="status">Ready</p>
+      <p id="answer" class="answer">Choose an example or enter a question.</p>
+      <dl id="metadata" hidden>
+        <div><dt>Answer version</dt><dd id="version"></dd></div>
+        <div><dt>First available</dt><dd id="first-release"></dd></div>
+        <div><dt>Source</dt><dd id="source"></dd></div>
+        <div><dt>Text similarity</dt><dd id="score"></dd></div>
+      </dl>
+    </section>
+  </div>
+</main>
+<script>
+const byId = (id) => document.getElementById(id);
+const form = byId("query-form");
+const question = byId("question");
+const release = byId("release");
+const submit = byId("submit");
+const answer = byId("answer");
+const status = byId("status");
+const metadata = byId("metadata");
+
+async function fetchJson(path) {
+  const response = await fetch(path);
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error);
+  return data;
+}
+
+fetchJson("/api/releases").then(({ releases }) => {
+  for (const number of releases) release.add(new Option("Release " + number, number));
+  release.value = releases.at(-1);
+  submit.disabled = false;
+}).catch(() => {
+  status.textContent = "Unavailable";
+  answer.textContent = "Could not load glossary releases.";
+});
+
+form.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  submit.disabled = true;
+  metadata.hidden = true;
+  status.textContent = "Searching…";
+  answer.textContent = "";
+  try {
+    const params = new URLSearchParams({ question: question.value, release: release.value });
+    const result = await fetchJson("/api/ask?" + params);
+    const fact = result.fact;
+    status.textContent = fact ? "Answer found" : "No confident match";
+    answer.lang = "km";
+    answer.textContent = fact ? fact.answer : "រកមិនឃើញនិយមន័យដែលត្រូវនឹងសំណួរ។";
+    byId("version").textContent = fact?.version_id ?? "—";
+    byId("first-release").textContent = fact?.session ? "Release " + fact.session : "—";
+    byId("source").textContent = fact?.source_id ?? "—";
+    byId("score").textContent = result.score.toFixed(3);
+    metadata.hidden = false;
+  } catch (error) {
+    status.textContent = "Search failed";
+    answer.lang = "en";
+    answer.textContent = error.message;
+  } finally {
+    submit.disabled = false;
+  }
+});
+
+for (const button of document.querySelectorAll("[data-question]")) {
+  button.addEventListener("click", () => {
+    question.value = button.dataset.question;
+    if (!submit.disabled) form.requestSubmit();
+  });
+}
+</script>
+</body>
+</html>

@@ -1,8 +1,47 @@
 # KhmerMind · Khmer Language Intelligence Engine
 
-A study and research repository for building a Khmer NLP system from scratch. Start by learning how text becomes features, how a model predicts, and how to measure what it remembers after an update.
+Khmer question answering for a versioned business glossary, with a from-scratch continual-learning benchmark. The demo returns a Khmer definition and its source when it finds a confident match.
 
-**New to the project?** Follow [KhmerMind from 0 to 100](START_HERE.md). Start with [Lesson 00](lessons/00-first-khmer-question.md), then work through the exercises and record what you can reproduce.
+**Review the project** · [Demo examples and findings](reports/README.md) · [Full benchmark tables](reports/results.md) · [Learning path](START_HERE.md)
+
+## Run the demo
+
+Use Python 3.11 or newer. Clone this repository and run these commands from the checkout root. Validation, search, and the local web interface use the Python standard library.
+
+```bash
+python3 -m khmer_learning validate
+python3 -m khmer_learning demo
+python3 -m khmer_learning ask 'តើស្តុកបម្រុងជាអ្វី?' --release 3
+python3 -m khmer_learning serve
+```
+
+For the web interface, open `http://127.0.0.1:8000` on the same computer. Try the safety-stock example in release 1, then release 3. The earlier release abstains. The later release shows `safety_stock_v1` and its Khmer definition. The CLI supports `--json` for structured results.
+
+## What is included
+
+| Component | Contents |
+| --- | --- |
+| [Data](data/README.md) | 30 synthetic Khmer glossary facts across three releases, with 190 training and evaluation questions. |
+| [Query engine](khmer_learning/) | Unicode character features, TF-IDF search, confidence and margin rules, and a local browser and CLI interface. |
+| [Continual-learning benchmark](khmer_learning/benchmark.py) | Linear and feedforward classifiers with hand-written gradients, compared across retrieval, frozen, sequential, uniform replay, fact-balanced replay, and full-history methods. |
+| [Evidence](reports/README.md) | Held-out results for three seeds and two release orders, a chart, examples of errors, and per-question outputs. |
+| [Checks](tests/test_project.py) | Data leakage, release availability, matched training budgets, replay limits, FFN gradients, and browser API behavior. |
+
+The demo searches a small fictional glossary. The first benchmark measures how precisely it can handle different wording and reject unknown questions. Independent Khmer review and evaluation against real business queries remain research milestones.
+
+## Run the benchmark
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m unittest discover -s tests -v
+python3 -m khmer_learning benchmark --model linear --output reports/generated/validation.json
+```
+
+The report documents the exact commands for both backbones and both release orders. [Reproduce the published study](reports/README.md#recreate-the-report)
+
+## Learn how it was built
+
+Work through the [0–100 learning path](START_HERE.md) or start directly at [Lesson 00](lessons/00-first-khmer-question.md).
 
 ## The project we are working toward
 
