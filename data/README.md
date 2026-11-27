@@ -16,3 +16,7 @@ Each fact has three training questions. Validation and test each have 42 questio
 - `questions.jsonl` stores `question_id`, `fact_id`, `paraphrase_group`, `text`, and `split`. A null `fact_id` marks an out-of-scope question. These rows appear only in validation and test.
 
 Review whether different questions belong to the same wording family before adding them. The validator catches duplicate normalized text, reused group IDs across splits, missing required splits, and invalid release or fact IDs. It cannot independently judge semantic near-duplicates, phrasing quality, or agreement with a real organization’s definitions. Preserve the original Unicode and record the source if replacing any synthetic rows.
+
+## Khmer–English tokenization audit
+
+[`tokenization_pairs.jsonl`](tokenization_pairs.jsonl) is a separate synthetic dataset, with 24 training pairs and 16 held-out pairs. The four term-level pairs are marked as `kind: term`. Each record stores a Khmer phrase and its English translation. The audit fits merge rules using only the training split. These translations have yet to receive independent Khmer review. See the [tokenization results](../reports/tokenization.md) for counts and reproduction commands.

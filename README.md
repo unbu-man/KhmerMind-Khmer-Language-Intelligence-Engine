@@ -2,7 +2,7 @@
 
 Khmer question answering for a versioned business glossary, with a from-scratch continual-learning benchmark. The demo returns a Khmer definition and its source when it finds a confident match.
 
-**Review the project** · [Demo examples and findings](reports/README.md) · [Full benchmark tables](reports/results.md) · [Learning path](START_HERE.md)
+**Review the project** · [Demo examples and findings](reports/README.md) · [Full benchmark tables](reports/results.md) · [Tokenization math](lessons/07-tokenization-math.md) · [Learning path](START_HERE.md)
 
 ## Run the demo
 

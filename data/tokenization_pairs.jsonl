@@ -1,0 +1,40 @@
+{"id": "train_text_01", "split": "train", "kind": "text", "km": "តើចំណូលសរុបមានន័យដូចម្តេច?", "en": "What does gross revenue mean?"}
+{"id": "train_text_02", "split": "train", "kind": "text", "km": "តើចំណូលសុទ្ធគណនាយ៉ាងដូចម្តេច?", "en": "How do you calculate net revenue?"}
+{"id": "train_text_03", "split": "train", "kind": "text", "km": "ហាងកត់ត្រាតម្លៃលក់មុនការបញ្ចុះតម្លៃ។", "en": "The store records the sale price before discounts."}
+{"id": "train_text_04", "split": "train", "kind": "text", "km": "របាយការណ៍នេះបង្ហាញចំនួនការបញ្ជាទិញដែលបានបញ្ចប់។", "en": "This report shows the number of completed orders."}
+{"id": "train_text_05", "split": "train", "kind": "text", "km": "តើតម្លៃមធ្យមក្នុងមួយការបញ្ជាទិញជាអ្វី?", "en": "What is the average order value?"}
+{"id": "train_text_06", "split": "train", "kind": "text", "km": "ប្រាក់ចំណេញដុលគិតក្រោយដកថ្លៃដើមទំនិញលក់។", "en": "Gross profit is calculated after subtracting the cost of goods sold."}
+{"id": "train_text_07", "split": "train", "kind": "text", "km": "យើងប្រៀបធៀបចំណូលខែនេះជាមួយខែមុន។", "en": "We compare this month's revenue with last month's."}
+{"id": "train_text_08", "split": "train", "kind": "text", "km": "ចំនួនឯកតាលក់បានវាស់បរិមាណទំនិញ។", "en": "Units sold measures the quantity of goods."}
+{"id": "train_text_09", "split": "train", "kind": "text", "km": "តើអតិថិជនថ្មីត្រូវកំណត់ដូចម្តេច?", "en": "How do you define a new customer?"}
+{"id": "train_text_10", "split": "train", "kind": "text", "km": "អតិថិជនសកម្មបានទិញយ៉ាងតិចម្តងក្នុងខែនេះ។", "en": "An active customer made at least one purchase this month."}
+{"id": "train_text_11", "split": "train", "kind": "text", "km": "អ្នកគ្រប់គ្រងពិនិត្យអត្រាអតិថិជនទិញម្តងទៀត។", "en": "The manager checks the repeat purchase rate."}
+{"id": "train_text_12", "split": "train", "kind": "text", "km": "តើអត្រាបម្លែងប្រើចំនួនវគ្គចូលមើលសរុបឬទេ?", "en": "Does the conversion rate use the total number of visits?"}
+{"id": "train_text_13", "split": "train", "kind": "text", "km": "យុទ្ធនាការនេះផ្តល់ប័ណ្ណបញ្ចុះតម្លៃដល់អតិថិជន។", "en": "This campaign gives discount coupons to customers."}
+{"id": "train_text_14", "split": "train", "kind": "text", "km": "យើងរាប់ប័ណ្ណដែលអតិថិជនបានប្រើ។", "en": "We count the coupons used by customers."}
+{"id": "train_text_15", "split": "train", "kind": "text", "km": "ប្រាក់បញ្ចុះតម្លៃត្រូវបានដកចេញពីតម្លៃលក់។", "en": "The discount amount is subtracted from the sale price."}
+{"id": "train_text_16", "split": "train", "kind": "text", "km": "តើថ្លៃទាក់ទាញអតិថិជនថ្មីម្នាក់មានប៉ុន្មាន?", "en": "How much does it cost to acquire one new customer?"}
+{"id": "train_text_17", "split": "train", "kind": "text", "km": "តើស្តុកបម្រុងជាអ្វី?", "en": "What is safety stock?"}
+{"id": "train_text_18", "split": "train", "kind": "text", "km": "ឃ្លាំងរក្សាទំនិញបន្ថែមដើម្បីការពារការខ្វះស្តុក។", "en": "The warehouse keeps extra goods to prevent stockouts."}
+{"id": "train_text_19", "split": "train", "kind": "text", "km": "យើងបញ្ជាទិញបន្ថែមពេលស្តុកធ្លាក់ដល់កម្រិតកំណត់។", "en": "We reorder when stock reaches the specified level."}
+{"id": "train_text_20", "split": "train", "kind": "text", "km": "ទំនិញមកដល់បីថ្ងៃក្រោយការបញ្ជាទិញ។", "en": "The goods arrive three days after ordering."}
+{"id": "train_text_21", "split": "train", "kind": "text", "km": "តើស្តុកក្នុងដៃរាប់ទំនិញកំពុងដឹកមកដែរឬទេ?", "en": "Does stock on hand include incoming goods?"}
+{"id": "train_text_22", "split": "train", "kind": "text", "km": "ទំនិញដែលបានកក់មិនអាចលក់ឱ្យអ្នកផ្សេងបានទេ។", "en": "Reserved goods cannot be sold to someone else."}
+{"id": "train_text_23", "split": "train", "kind": "text", "km": "យើងរាប់ចំនួនថ្ងៃដែលទំនិញអស់ស្តុក។", "en": "We count the number of days an item is out of stock."}
+{"id": "train_text_24", "split": "train", "kind": "text", "km": "តើការដឹកទាន់ពេលមានន័យដូចម្តេច?", "en": "What does on-time delivery mean?"}
+{"id": "test_text_01", "split": "test", "kind": "text", "km": "តើចំណូលដែលនៅសល់ក្រោយដកប្រាក់បញ្ចុះតម្លៃហៅថាអ្វី?", "en": "What do we call revenue after subtracting discounts?"}
+{"id": "test_text_02", "split": "test", "kind": "text", "km": "តើសូចនាករណាបង្ហាញប្រាក់ចំណេញក្រោយគិតថ្លៃដើមទំនិញ?", "en": "Which metric shows profit after accounting for the cost of goods?"}
+{"id": "test_text_03", "split": "test", "kind": "text", "km": "តើហាងលក់ទំនិញសរុបបានប៉ុន្មានដុំក្នុងសប្តាហ៍នេះ?", "en": "How many items did the store sell this week?"}
+{"id": "test_text_04", "split": "test", "kind": "text", "km": "តើប្រាក់ចំណូលពីការលក់កើនប៉ុន្មានភាគរយធៀបនឹងឆ្នាំមុន?", "en": "By what percent did sales revenue increase compared with last year?"}
+{"id": "test_text_05", "split": "test", "kind": "text", "km": "តើអតិថិជនដែលបានទិញពីរដងចូលក្នុងក្រុមណា?", "en": "Which group includes a customer who bought twice?"}
+{"id": "test_text_06", "split": "test", "kind": "text", "km": "តើប័ណ្ណប្រូម៉ូសិនដែលបានចែកមានប៉ុន្មានភាគរយត្រូវបានប្រើ?", "en": "What percentage of the promotional coupons distributed were used?"}
+{"id": "test_text_07", "split": "test", "kind": "text", "km": "តើត្រូវដកអ្វីខ្លះដើម្បីរកស្តុកដែលអាចលក់បាន?", "en": "What should be subtracted to find the stock available for sale?"}
+{"id": "test_text_08", "split": "test", "kind": "text", "km": "តើនិយមន័យមួយណាប្រាប់ចំនួនថ្ងៃពីការបញ្ជាទិញដល់ការទទួលទំនិញ?", "en": "Which definition gives the number of days from ordering to receiving goods?"}
+{"id": "test_text_09", "split": "test", "kind": "text", "km": "តើស្តុកដែលមាននៅសល់គ្រប់សម្រាប់ការលក់ប៉ុន្មានថ្ងៃ?", "en": "How many days of sales will the remaining stock cover?"}
+{"id": "test_text_10", "split": "test", "kind": "text", "km": "តើការដឹកមកដល់មុនថ្ងៃសន្យាត្រូវរាប់ថាទាន់ពេលដែរឬទេ?", "en": "Does a delivery that arrives before the promised date count as on time?"}
+{"id": "test_text_11", "split": "test", "kind": "text", "km": "តើការបញ្ជាទិញដែលបានលុបចោលត្រូវដាក់ក្នុងរបាយការណ៍ណា?", "en": "Which report should include canceled orders?"}
+{"id": "test_text_12", "split": "test", "kind": "text", "km": "តើចំណាយទីផ្សារក្នុងមួយអតិថិជនថ្មីត្រូវគណនាដូចម្តេច?", "en": "How do you calculate marketing spending per new customer?"}
+{"id": "test_term_01", "split": "test", "kind": "term", "km": "ស្តុក", "en": "stock"}
+{"id": "test_term_02", "split": "test", "kind": "term", "km": "ចំណូល", "en": "revenue"}
+{"id": "test_term_03", "split": "test", "kind": "term", "km": "លក់", "en": "sell"}
+{"id": "test_term_04", "split": "test", "kind": "term", "km": "ឃ្លាំង", "en": "warehouse"}
