@@ -45,6 +45,7 @@ Use Python 3.11 or newer. From the checkout root, install the plotting dependenc
 
 ```bash
 python3 -m pip install -r requirements-report.txt
+export OPENBLAS_NUM_THREADS=1
 python3 -m khmer_learning benchmark --model linear --split test --order 1 2 3 --output reports/generated/linear-123-test.json
 python3 -m khmer_learning benchmark --model ffn --split test --order 1 2 3 --output reports/generated/ffn-123-test.json
 python3 -m khmer_learning benchmark --model linear --split test --order 3 1 2 --output reports/generated/linear-312-test.json
@@ -52,4 +53,4 @@ python3 -m khmer_learning benchmark --model ffn --split test --order 3 1 2 --out
 python3 scripts/make_report.py reports/generated/linear-123-test.json reports/generated/ffn-123-test.json reports/generated/linear-312-test.json reports/generated/ffn-312-test.json
 ```
 
-Update time depends on hardware and runtime load. The archive includes predictions, release matrices, data checksums, configuration, and timing for the published run.
+The published run used one OpenBLAS thread. On PowerShell, use `$env:OPENBLAS_NUM_THREADS = '1'` before running the experiments. Floating-point scores can differ slightly across math libraries, and update time depends on hardware and runtime load. The archive includes predictions, release matrices, data checksums, configuration, and timing for the published run.
